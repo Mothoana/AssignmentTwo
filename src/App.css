@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: plum;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgb(220, 11, 178);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  background-color:rgb(198, 22, 198);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+}
